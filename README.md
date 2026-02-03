@@ -1,9 +1,9 @@
 # fraud-detection-consulting
 Optimización de modelos de Machine Learning para detección de fraude financiero. Comparativa estratégica entre Under-sampling y SMOTE aplicada a Regresión Logística y Random Forest para la gestión de riesgo bancario
 
-# 🛡️ Detección de Fraude Bancario: Un Enfoque de Consultoría Estratégica
+# Detección de Fraude Bancario: Un Enfoque de Consultoría Estratégica
 
-## 📌 Resumen Ejecutivo
+##  Resumen Ejecutivo
 Este proyecto aborda un desafío crítico en el sector financiero: la detección de transacciones fraudulentas en tiempo real en un dataset altamente desbalanceado.
 
 Analizando más de 280,000 transacciones donde el fraude representa apenas el **0.17%**, el objetivo principal no fue solo maximizar la detección técnica, sino encontrar el equilibrio estratégico entre dos KPIs de negocio opuestos:
@@ -12,7 +12,7 @@ Analizando más de 280,000 transacciones donde el fraude representa apenas el **
 
 ---
 
-## 🛠️ Metodología y Desafío Técnico
+##  Metodología y Desafío Técnico
 
 El principal reto fue la escasez de datos de fraude. Se implementaron y compararon diferentes estrategias de ingeniería de datos para superar esto:
 
@@ -22,7 +22,7 @@ El principal reto fue la escasez de datos de fraude. Se implementaron y comparar
     * *Datos Reales:* 396 fraudes.
     * *Datos tras SMOTE:* 226,584 fraudes sintéticos (Equilibrado).
 
-### 📊 Visualización del Impacto del Balanceo
+###  Visualización del Impacto del Balanceo
 El desbalance oculta los patrones. Al equilibrar los datos, las verdaderas correlaciones del fraude emergen claramente:
 
 ![Comparativa de Correlación](images/Matriz-de-Correlacion.png)
@@ -30,7 +30,7 @@ El desbalance oculta los patrones. Al equilibrar los datos, las verdaderas corre
 
 ---
 
-## 📈 Benchmark de Rendimiento (Resultados Reales)
+##  Benchmark de Rendimiento (Resultados Reales)
 
 Se evaluaron tres escenarios para determinar el modelo óptimo para producción:
 
@@ -42,7 +42,7 @@ Se evaluaron tres escenarios para determinar el modelo óptimo para producción:
 
 ---
 
-## 🧠 Análisis Profundo: La Trampa de la Complejidad
+##  Análisis Profundo: La Trampa de la Complejidad
 
 ### El Fracaso de SMOTE con Modelos Lineales
 El intento de usar SMOTE con una Regresión Logística simple resultó en un fracaso operativo. El modelo no pudo distinguir entre transacciones reales y el "ruido" generado sintéticamente, resultando en una precisión del 4%.
@@ -61,7 +61,7 @@ Al aplicar un algoritmo de ensamble (Random Forest), logramos "domar" los datos 
 
 ---
 
-## 💡 Recomendación Final del Consultor
+##  Recomendación Final
 
 Para una institución financiera que prioriza la **reducción de la fricción con el cliente** y la **estabilidad a largo plazo**, se recomienda la implementación del modelo **Random Forest con entrenamiento SMOTE**.
 
