@@ -48,13 +48,13 @@ Se evaluaron tres escenarios para determinar el modelo óptimo para producción:
 El intento de usar SMOTE con una Regresión Logística simple resultó en un fracaso operativo. El modelo no pudo distinguir entre transacciones reales y el "ruido" generado sintéticamente, resultando en una precisión del 4%.
 > **Impacto de Negocio:** De cada 100 bloqueos de tarjeta, 96 serían a clientes inocentes. Inaceptable para un banco.
 
-![Matriz Logística SMOTE](images/SMOTE.png)
+![Matriz Logística SMOTE](images/Matriz-Confusion-SMOTE.png,images/SMOTE.png)
 *Figura 2: La Regresión Logística con SMOTE generó 1470 Falsos Positivos (esquina superior derecha), desplomando la precisión.*
 
 ### La Solución Robusta: Random Forest
 Al aplicar un algoritmo de ensamble (Random Forest), logramos "domar" los datos sintéticos de SMOTE. El modelo fue capaz de aprender fronteras de decisión complejas, elevando la precisión de nuevo a un nivel de producción (91%).
 
-![Matriz Random Forest](images/RF.png)
+![Matriz Random Forest](images/Matriz-Confusion-RF+SMOTE.png,images/RF.png)
 *Figura 3: El Random Forest redujo drásticamente los falsos positivos a solo 6, ofreciendo un sistema altamente fiable.*
 
 ---
