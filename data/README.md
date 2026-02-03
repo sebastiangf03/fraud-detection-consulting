@@ -6,7 +6,6 @@ Debido a las restricciones de tamaño de GitHub y las políticas de privacidad, 
 El dataset utilizado es el **Credit Card Fraud Detection** proporcionado por el Machine Learning Group de la ULB, disponible en Kaggle:
 - [Descargar Dataset en Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 
-###Instrucciones de Uso
+### Instrucciones de Uso
 1. Descarga el archivo `creditcard.csv` desde el enlace superior.
-2. Coloca el archivo dentro de esta carpeta (`/data/`).
-3. El notebook de análisis está configurado para leer el archivo automáticamente desde esta ruta.
+3. El notebook de análisis está configurado para leer el archivo automáticamente.
