@@ -25,7 +25,7 @@ El principal reto fue la escasez de datos de fraude. Se implementaron y comparar
 ### 📊 Visualización del Impacto del Balanceo
 El desbalance oculta los patrones. Al equilibrar los datos, las verdaderas correlaciones del fraude emergen claramente:
 
-![Comparativa de Correlación](images/Matriz-de-Correlacion-Desequilibrada.png)
+![Comparativa de Correlación](images/Matriz-de-Correlacion.png)
 *Figura 1: La matriz inferior (equilibrada) revela fuertes correlaciones negativas (rojo intenso) en variables como V14 y V12 que estaban ocultas en el dataset original.*
 
 ---
