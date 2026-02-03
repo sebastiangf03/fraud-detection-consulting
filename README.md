@@ -70,4 +70,4 @@ Aunque su tasa de detección (Recall 81%) es ligeramente inferior a la línea ba
 ---
 **Autor:** Sebastian David Gutierrez Ferreira
 *Data Science & Analytics Portfolio*
-[Enlace a tu LinkedIn]
+[www.linkedin.com/in/sebastian-david-gutierrez-ferreira-417703274]
